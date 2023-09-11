@@ -135,9 +135,15 @@ the code are doing. For example, what's the Java version of Python's `and`? What
 on with that weird `for` loop? As you do this, you might find it useful to write down your
 own implementation in Python to help you begin to create a mapping between the two languages.
 
-- [ ] Make note of any specific Java syntax which stands out to you and compare what you
+- [X] Make note of any specific Java syntax which stands out to you and compare what you
 come up with those around you. Try to come up with a list of at least five things that
 strike you as either similar to or different from Python.
+
+- 1. there is a () after for and if statement
+- 2. && in Java means 'and' in Python
+- 3. Java use else if instead of elif
+- 4. when creating a new variable in Java, you have to declare the type first
+- 5. in the bracket after for, you should write loop variable, acceptable range, how loop variable changes.
 
 Tip: IntelliJ works just like PyCharm, so you can place breakpoints and step through the code using the debugger in the same way.
 You might find it informative to try stepping through the code to see what it is doing on a few iterations.
@@ -160,7 +166,7 @@ Later in this course, you'll learn what all that mess means, but for now it is e
 
 ### Task 1.1: Rewrite this using `while`
 
-- [ ] You've puzzled through how Java `for` and `if` statements work; now rewrite this
+- [X] You've puzzled through how Java `for` and `if` statements work; now rewrite this
 to use a `while` loop instead of a `for` loop.
 
 ## How to test this code
@@ -179,7 +185,7 @@ line or the closing brace `}` of the loop.
 
 3. Immediately, type the method name you want, maybe something like `doFizzBuzz`.
 
-- [ ] Rerun the program to verify.
+- [X] Rerun the program to verify.
 
 That's your first big IntelliJ trick! There are lots more.
 
@@ -192,7 +198,7 @@ You'll learn more about the various access modifiers in your Java readings soon.
 
 Now that you've made your first edits to your code, you should ask git to save these changes for you.
 
-- [ ] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have modified `FizzBuzz.java` (and this README too!).
+- [X] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have modified `FizzBuzz.java` (and this README too!).
 
 We will save our local changes to `FizzBuzz.java` and then push the changes to your GitHub repository using
 a sequence of three git commands:
