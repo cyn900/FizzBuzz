@@ -1,7 +1,7 @@
 # CSC207 Week 1 Lab Activity #1: Fizz Buzz!
 Let's start off our exploration of Java with a classic programming challenge, Fizz Buzz!
 
-But first, let's get you your own copy of this codebase to work with.
+But first, let's get you your own copy of this codebase to work with:)
 
 ## Task 0 Forking a public repository on GitHub
 
@@ -154,7 +154,8 @@ In Python, any code that you write in a file will get run when you execute the f
 This is not the case in Java. You must define a method called `main` in a class
 and tell Java to run the file containing that class.
 
-```java
+```
+java
 public static void main(String[] args)
 ```
 
